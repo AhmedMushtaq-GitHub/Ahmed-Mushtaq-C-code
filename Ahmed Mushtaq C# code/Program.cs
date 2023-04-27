@@ -27,6 +27,8 @@ string - stores text, such as "Hello World". String values are surrounded by dou
 bool - stores values with two states: true or false*/
 
 int myNum = 5;
+Console.WriteLine(myNum);
+Console.ReadLine();
 double myDoubleNum = 5.99D;
 char myLetter = 'D';
 bool myBool = true;
@@ -49,7 +51,7 @@ Console.WriteLine(fullName);
 //To declare more than one variable of the same type, use a comma-separated list:
 int x = 5, y = 6, z = 50;
 Console.WriteLine(x + y + z);
-int x, y, z;
+int a, b, c;
 x = y = z = 50;
 Console.WriteLine(x + y + z);
 
